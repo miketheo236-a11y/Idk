@@ -12,11 +12,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Compile Code
+        shell: bash
         run: |
           source /etc/profile.d/devkit-env.sh
           make
 
       - name: Create CIA Package
+        shell: bash
         run: |
           source /etc/profile.d/devkit-env.sh
           bannertool makesmdh -s "Scarlet Skips" -l "Endless Jumper" -p "Dev" -o icon.smdh
