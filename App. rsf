@@ -1,0 +1,19 @@
+BasicInfo:
+  Title                   : "Scarlet Skips"
+  CompanyCode             : "01"
+  ProductCode             : "CTR-P-SKIP"
+  ContentType             : Application
+  UniqueId                : 0xF8002
+
+TitleInfo:
+  Category                : Application
+  TargetCategory          : ALL
+  Flags                   : [ Visible, NormalSave ]
+
+Option:
+  UseShortTitle           : true
+
+SystemControlInfo:
+  SaveDataSize            : 0KB
+  RemasterVersion         : 0
+  StackSize               : 0x00040000
